@@ -1,0 +1,117 @@
+
+/* Applies to the enire page*/
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+/* Here is the styling for the header*/
+header {
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: center;
+    
+}
+
+#container1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: none;
+    padding: 20px;
+    
+}
+
+.img1 {
+    flex:1;
+    padding: 1px;
+    width: 30%;
+    height: fit-content;
+}
+
+/*.img2 {
+    flex:1;
+    padding: 1px;
+    width: 450px;
+    height: 200px;
+}
+
+.img3 {
+    flex:1;
+    padding: 5px;
+    width: 450px;
+    height: 200px;
+} */
+
+/* Here is the styling for the navbar */ 
+
+#container-nav {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+#container-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    
+}
+
+nav ul button:hover {
+    color: wheat;
+    font-size: 10px;
+}
+
+.button {
+    background-color: teal;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+/* Here is the content styling*/
+
+#body {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+h3 {
+    color: teal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.article {
+    padding: 10px;
+    margin: 0px 20px;
+    justify-content: space-around;
+    border: teal 2px dotted;
+
+}
+
+
+
+#test form .radio {
+     color: white;
+     text-align: center;
+}
+
+textarea {
+    justify-content: center;
+}
+
+.boka {
+     justify-content: center
+     align-item: center; 
+}
+
+footer {
+    color: white;
+}
